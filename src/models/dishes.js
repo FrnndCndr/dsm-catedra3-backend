@@ -26,6 +26,7 @@ Dish.init(
     image: {
       type: DataTypes.STRING,
       allowNull: false,
+      defaultValue: 'https://res.cloudinary.com/dm3j4u2pn/image/upload/v1751584497/670855f8-acf0-44e2-bf06-8f4cc39b1a8f.png'
     },
     price: {
       type: DataTypes.FLOAT,
